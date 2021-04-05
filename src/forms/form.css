@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.register{
+    
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+}
