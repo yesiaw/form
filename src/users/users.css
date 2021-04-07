@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    background-color: gray;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

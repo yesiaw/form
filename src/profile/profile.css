@@ -1,0 +1,20 @@
+.profile-container{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: green; */
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    /* background-color: greenyellow; */
+}
+.other-info{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100px;
+    /* background-color: honeydew; */
+}
