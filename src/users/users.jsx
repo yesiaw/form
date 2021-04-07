@@ -67,4 +67,4 @@ const mapStateToProps = (state) => ({
     current: state.usersPage.currentPage
 })
 
-export default compose(withRouter, connect(mapStateToProps, { getUsers, cnahgeCurrent }))(UsersContainer)
+export default compose(withRouter, connect(mapStateToProps, { getUsers, cnahgeCurrent }), withAuthRedirect)(UsersContainer)

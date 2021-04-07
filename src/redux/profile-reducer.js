@@ -24,8 +24,6 @@ const ProfileReducer = (state = initialState, action) => {
 
 export const setUser = (profile) => ({ type: GET_USER, profile})
 
-
-
 export const getUser = (userID) => {
     return (dispatch) => {
         authAPI.getProfile(userID).then(response => {
@@ -34,12 +32,6 @@ export const getUser = (userID) => {
         })
     }
 }
-
-
-
-
-
-
 
 export default ProfileReducer;
 

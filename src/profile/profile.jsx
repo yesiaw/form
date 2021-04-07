@@ -7,6 +7,7 @@ import { getUsers } from '../redux/users-reducer';
 import './profile.css'
 
 const Profile = (props) => {
+    
 
     
 
@@ -27,6 +28,8 @@ const Profile = (props) => {
                 <div>
                     {props.profile.last_name}
                 </div>
+
+                {props.profile.length == 0 && (<div>My profile</div>)}
 
                 <button onClick = {props.backToUsers}>BACK</button>
 
